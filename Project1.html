@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Project</title>
+	<link rel="stylesheet" type="text/css" href="Project1.css">
+</head>
+<body>
+
+	<!--Navbar-->
+	<nav class="navbar">
+		<h1 class="logo">ADVENTURE</h1>
+		<ul class="nav-links">
+			<li ><a href="Project1.html" class="active">Home</a></li>
+			<li><a style="color: whitesmoke;" href="About.html">About</a></li>
+			<li><a style="color: whitesmoke;" href="#">Services</a></li>
+			<li><a style="color: whitesmoke;" href="#">Projects</a></li>
+			<li><a style="color: whitesmoke;" href="#">Contact</a></li>
+			<li><a class="btn" href="#">Take Action</a></li>
+		</ul>
+		<img src="img/menu-btn.png" class="menu-btn">
+	</nav>
+	<!--Navbar END-->
+
+	<!--Header Start-->
+	<header>
+		<div class="header-content">
+			<h2>Explore the color full World Web</h2>
+			<div class="line"></div>
+				<h1>A WONDERFUL GIFT</h1>
+				<a href="#" class="btn">Learn More</a>
+		</div>
+	</header>
+	<!--Header End-->
+
+	<!-- Event Section Start -->
+	<section class="Events">
+		<div class="title">
+			<h1>Upcoming Events</h1>
+			<div class="line"></div>
+		</div>
+
+		<div class="row">
+			<div class="col">
+				<img src="img/img1.png">
+				<h4>Everest Camp Trek</h4>
+				<p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
+		<div class="col">
+				<img src="img/img2.png">
+				<h4>Walking Holidays</h4>
+				<p>Fuerat aestu carentem habentia spectent tonitrua mutastis locavit liberioris inistra possedit.</p>
+				<a href="#" class="btn">Learn More</a>
+			</div>
+		</div>
+	</section>
+	<!-- Event Section End -->
+
+	<!-- Explore Section Start -->
+	<section class="Explore">
+		<div class="Explore-Content">
+			<h1>EXPLORE THE WORLD</h1>
+			<div class="line"></div>
+		    <p>Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda concordi. Fert his. 
+		        Recessit mentes praecipites locum caligine sui egens erat.Silvas caeli regna.</p>
+		    <a href="#" class="btn">Learn More</a>
+		</div>
+	</section>
+	<!-- Explore Section End -->
+
+	<!-- Tours Section Start -->
+	<section class="tours">
+		<div class="row">
+			<div class="col content-col">
+			<h1>UPCOMING TOURS & DESTINATION</h1>
+		    <p>Diremit mundi mare undae nunc mixtam tanto sibi. Nubes unda concordi. Fert his.Recessit mentes praecipites locum caligine sui egens erat.Silvas caeli regna.</p>
+		    <a href="#" class="btn">Learn More</a>
+		</div>
+		<div class="col image-col">
+			<div class="image-gallery">
+				<img src="img/img3.png">
+				<img src="img/img4.png">
+				<img src="img/img5.png">
+				<img src="img/img6.png">
+			</div>
+		</div>
+	</div>
+	</div>
+	</section>
+	<!-- Tours Section End -->
+
+	<section class="footer">
+		<p>123 Fifth Avenue, NY 10160, New York, USA | Phone: 800-123-456 | Email: hkdesigner78@.com</p>
+		<p>Copyright © 2022 Outdoor Adventure Designed By Hamad Khan</p>
+	</section>
+
+
+	<script>
+		const menuBtn = document.querySelector('.menu-btn')
+		const navlinks = document.querySelector('.nav-links')
+
+		menuBtn.addEventListener('click',()=>{
+			navlinks.classList.toggle('mobile-menu')
+			
+		})
+	</script>
+
+</body>
+</html>
